@@ -9,7 +9,7 @@ import numpy as np
 
 
 cap = cv2.VideoCapture(0)
-Print("Push to build code is working fine")
+Print("code push not working")
 
 mpHands = mp.solutions.hands
 
