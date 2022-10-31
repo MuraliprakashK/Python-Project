@@ -9,7 +9,7 @@ import numpy as np
 
 
 cap = cv2.VideoCapture(0)
-print(cap)
+print("murali")
 
 mpHands = mp.solutions.hands
 
