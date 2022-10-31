@@ -9,6 +9,7 @@ import numpy as np
 
 
 cap = cv2.VideoCapture(0)
+print(cap)
 
 mpHands = mp.solutions.hands
 
