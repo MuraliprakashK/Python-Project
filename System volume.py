@@ -9,7 +9,6 @@ import numpy as np
 
 
 cap = cv2.VideoCapture(0)
-Print("code precheck commit")
 
 mpHands = mp.solutions.hands
 
@@ -68,6 +67,7 @@ while True:
         vol = np.interp(length, [15,220],[volMin,volMax])
 
         print(vol, length)
+        print("code testing")
 
         volume.SetMasterVolumeLevel(vol, None)
 
