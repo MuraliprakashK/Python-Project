@@ -15,6 +15,7 @@ engine.setProperty('voice',voices[1].id)          # 0-male voice , 1-female voic
 
 def speak(audio):                                # function for assistant to speak
     engine.say(audio)
+    print("murali")
     engine.runAndWait()                          # without this command, the assistant won't be audible to us
 
 
