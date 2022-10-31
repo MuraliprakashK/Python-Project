@@ -9,7 +9,7 @@ import numpy as np
 
 
 cap = cv2.VideoCapture(0)
-Print("code push not working")
+Print("code precheck commit")
 
 mpHands = mp.solutions.hands
 
