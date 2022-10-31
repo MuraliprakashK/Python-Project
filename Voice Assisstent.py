@@ -30,6 +30,7 @@ def wishme():                                    # function to wish the user acc
 
     else:
         speak('Good Evening')
+        Print("good evening")
 
     speak('Hello Sir, I am Daisy, your Artificial intelligence assistant. Please tell me how may I help you')
 
